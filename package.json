@@ -1,6 +1,6 @@
 {
   "name": "jmtools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "js常用工具类",
   "main": "index.js",
   "scripts": {
