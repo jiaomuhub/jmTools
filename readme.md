@@ -1,5 +1,6 @@
 ## 用法举例
-`npm install jmtools`
+`npm install jmtools`  
+
 `import { checkPhone, getLocalTime } from 'jmtools'`
 
 ### 手机号验证
