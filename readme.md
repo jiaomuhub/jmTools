@@ -8,4 +8,4 @@
 
 ### 获取当前日期时间
 
-`getLocalTime(new Date(), 'YYYY-MM-DD hh:mm:ss'`
+`getLocalTime(new Date(), 'YYYY-MM-DD hh:mm:ss')`
