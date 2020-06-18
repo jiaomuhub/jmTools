@@ -23,6 +23,10 @@
 
 `getDay(-3)`
 
+### 分钟转为天、时、分
+
+`formatMinutes(60)`
+
 ### 根据某key值，json数组去重
 
 `let array = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '张三',age: '12'}]`
