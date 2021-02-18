@@ -7,6 +7,32 @@
 
 `checkPhone(13611112222)  //返回值true  false`
 
+### 正则校验合集
+
+`checkStr(str,type)`
+
+```bash
+type参数说明：
+手机号：phone
+座机: tel
+身份证: card
+密码: pwd
+邮编: postal
+qq: QQ
+邮箱: email
+金额: money
+网址: URL
+IP: IP
+日期: date
+数字: number
+英文: english
+中文: chinese
+小写: lower
+大写: upper
+HTML标记: HTML
+
+```
+
 ### 去掉字符串中所有空格
 
 `trimAll(' s d ')  //返回值 sd`
