@@ -55,25 +55,33 @@ HTML标记: HTML
 
 ### 根据某key值，json数组去重
 
-`let array = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '张三',age: '12'}]`
-`uniqueArray(array, 'age')`
+```bash
+let array = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '张三',age: '12'}]
+uniqueArray(array, 'age')
+```
 
 ### json数组去重
 
-`let array = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '张三',age: '12'}]`
-`removeRepeat(array)`
+```bash
+let array = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '张三',age: '12'}]
+removeRepeat(array)
+```
 
 ### 两json数组交集
 
-`let a = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '王五',age: '15'}]`
-`let b = [{name: '张三',age: '12'},{name: '张四',age: '18'},{name: '张五',age: '15'}]`
-`intersect(a, b)`
+```bash
+let a = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '王五',age: '15'}]
+let b = [{name: '张三',age: '12'},{name: '张四',age: '18'},{name: '张五',age: '15'}]
+intersect(a, b)
+```
 
 ### 数组批量删除(a原数组，b需要删除的数组，name字段)
 
-`let a = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '王五',age: '15'}]`
-`let b = [{name: '张三',age: '12'},{name: '李四',age: '18'}]`
-`arrDelete(a, b, 'name')`
+```bash
+let a = [{name: '张三',age: '12'},{name: '李四',age: '18'},{name: '王五',age: '15'}]
+let b = [{name: '张三',age: '12'},{name: '李四',age: '18'}]
+arrDelete(a, b, 'name')
+```
 
 ### 数组深拷贝
 
